@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vrpipeline"
+version = "1.0.0"
+description = "Unified virtual-resection pipeline for drug-resistant epilepsy: symmetric coherence (Kini et al., Brain 2019) + directed transfer-entropy (Sun et al., Sci Rep 2024)"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "scikit-learn>=1.2",
+    "nibabel>=5.0",
+    "h5py>=3.8",
+]
+
+[tool.setuptools]
+packages = ["vrpipeline"]

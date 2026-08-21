@@ -1,0 +1,5 @@
+patient_id,outcome,delta_s_alpha_theta,delta_s_beta,delta_s_low_gamma,delta_s_high_gamma,delta_s_broadband_cc
+HUP001,1,0.02,-0.04,-0.01,-0.03,-0.18
+HUP002,1,-0.01,-0.06,-0.02,-0.05,-0.22
+HUP003,0,0.05,0.03,0.04,0.02,0.06
+HUP004,0,0.01,0.02,0.00,0.03,0.09

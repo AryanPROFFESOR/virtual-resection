@@ -1,0 +1,9 @@
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+nibabel>=5.0
+h5py>=3.8
+mne>=1.4          # only needed if you load EDF via vrpipeline.io.load_edf
+pandas>=2.0        # only needed by scripts/ for tabular cohort output
+matplotlib>=3.7    # only needed by scripts/ for figure generation
+pytest>=7.4         # dev/test only
